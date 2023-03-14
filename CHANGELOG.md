@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [iri-0.0.0] - 2023-03-14
+
+### Change
+
+- IRI fork: call invalidateSize when map component gets resized.
+
 ## [0.1.25] - 2022-07-20
 
 ### Change
