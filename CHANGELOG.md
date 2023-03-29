@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [iri-0.0.1] - 2023-03-29
+
+### Change
+
+- IRI fork: undo changes to package-lock.json; build conda package with npm ci instead of npm install.
+
 ## [iri-0.0.0] - 2023-03-14
 
 ### Change
