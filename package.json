@@ -2,9 +2,9 @@
   "name": "dash_leaflet",
   "repository": {
     "type": "git",
-    "url": "git://github.com/thedirtyfew/dash-leaflet.git"
+    "url": "git://github.com/iridl/dash-leaflet.git"
   },
-  "version": "0.1.25",
+  "version": "0.0.0",
   "description": "Leaflet component for Dash",
   "main": "build/index.js",
   "scripts": {

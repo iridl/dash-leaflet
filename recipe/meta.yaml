@@ -1,0 +1,36 @@
+{% set name = "dash-leaflet-iri" %}
+{% set version = "0.0.0" %}
+
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  path: ..
+
+build:
+  number: 1
+  noarch: python
+
+requirements:
+  host:
+    - pip
+    - python >=3.6
+    - dash  # for dash-generate-components, used by npm run build
+    - pyyaml  # used by dash-generate-components
+    - nodejs
+  run:
+    - dash
+    - geobuf
+    - python >=3.6
+
+test:
+  imports:
+    - dash_leaflet
+
+about:
+  home: https://github.com/iridl/dash-leaflet
+  summary: Leaflet component for Dash
+  license: MIT
+  license_file: LICENSE
