@@ -1,5 +1,5 @@
 {% set name = "dash-leaflet-iri" %}
-{% set version = "0.0.0" %}
+{% set version = "0.0.1" %}  # reset build number to 0 when incrementing version number
 
 
 package:
@@ -10,7 +10,7 @@ source:
   path: ..
 
 build:
-  number: 1
+  number: 0
   noarch: python
 
 requirements:

@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git://github.com/iridl/dash-leaflet.git"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Leaflet component for Dash",
   "main": "build/index.js",
   "scripts": {
